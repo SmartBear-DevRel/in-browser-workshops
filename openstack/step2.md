@@ -22,4 +22,4 @@ It isn't so easy to read from a terminal, but that will lead us onto our first t
 
 Before moving to the next step, check the following:
 
-1. There is a directory called `openapi/openapi.yaml` in your workspace.
+1. There is a file called `openapi/openapi.yaml` in your workspace.
