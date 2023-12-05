@@ -39,8 +39,8 @@ Finally we will tell Prism the location of our API file and tell it to start a `
 
 You'll note some validation errors here, which align with those seen in Spectral, allowing you to ensure that the mocks you provide, are consistent with your codebase.
 
-1. `make provider_mock_prism`{{exec}}
-2. `curl localhost:3001/products`{{exec}} in terminal 2
+1. 👉🏼 `make provider_mock_prism`{{exec}}
+2. 👉🏼 `curl localhost:3001/products`{{exec}} in terminal 2
 3. Press `ctrl + c` to close the mock running in terminal 1
 
 This mock provider can now be hosted, and linked up to your Swagger Editor / UI, allowing consumers to utilise the try-it-now functionality, where they can make requests from their browser.

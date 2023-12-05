@@ -24,8 +24,8 @@ We then run Stoplight Spectral locally with Docker, pulling the image from Docke
 
 We tell spectral where to locate the OpenAPI description and the location of the ruleset
 
-1. `make create_spectral_default_ruleset`{{exec}}
-2. `make openapi_lint_spectral`{{exec}}
+1. 👉🏼 `make create_spectral_default_ruleset`{{exec}}
+2. 👉🏼 `make openapi_lint_spectral`{{exec}}
 
 Any violations are shown here, allowing us to rectify the changes, and re-validate. This ability to provide fast-feedback can be used at authoring time, as well as being integrated into Continuous Integration, meaning that its caught early on rather than causing issues to consumers and users of the API description.
 

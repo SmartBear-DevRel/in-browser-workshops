@@ -60,12 +60,12 @@ There are multiple ways to run Stoplight elements, in our example, we have a com
 
 We are passing in a URL to a hosted OpenAPI description, to save having to serve the file locally.
 
-1. If running in the Killercoda tutorial, find the file `openstack/elements.html`
+1. If running in the Killercoda tutorial, find the file 👉🏼 `openstack/elements.html`
    1. Right click on the file in the editor explorer view
-   2. Select `Download`
+   2. Select 👉🏼 `Download`
    3. Open the downloaded file, it should open in your preferred browser.
 2. If running on your local machine
-   1. `make openapi_docs_elements`{{exec}}
+   1. 👉🏼 `make openapi_docs_elements`{{exec}}
 
 ### Check
 

@@ -2,13 +2,15 @@
 
 We will use a demonstration OpenAPI description, for our example.
 
-Running the following command will
+Running the following command
+
+👉🏼 `make setup`{{exec}}
+
+Will perform the following actions:-
 
 - Create a directory called `openapi`
 - Retrieve an example OpenAPI description from [GitHub](https://github.com/SmartBear-DevRel/swaggerhub-pactflow/blob/main/oas/swagger.yaml)
 - Setup a `.gitgnore` file used to exclude some files from being commited to source control.
-
-👉🏼 `make setup`{{exec}}
 
 You can check the contents of the OpenAPI description with the following command
 

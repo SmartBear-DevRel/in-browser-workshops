@@ -25,13 +25,13 @@ We will load in our project file, generated with `openapi2soapui`, into the soap
 The tests will run, and should report 0 failures. You can stop the provider mock, and run the tests again. You should see three errors.
 
 1. SoapUI
-   1. `make openapi2soapui_fetch`{{exec}}
-   2. `make openapi2soapui_build`{{exec}}
-   3. `make openapi2soapui_generate_project`{{exec}}
-   4. `make provider_mock_prism`{{exec}} - Run our Mock Provider
-   5. In a second terminal `make soapui_run`{{exec}} in terminal 2
-      1. Don't forget to change directory into the `cd openstack`{{exec}} beforehand in the new terminal
-   6. Press `ctrl + c` to close the mock running in terminal 1
+   1. 👉🏼 `make openapi2soapui_fetch`{{exec}}
+   2. 👉🏼 `make openapi2soapui_build`{{exec}}
+   3. 👉🏼 `make openapi2soapui_generate_project`{{exec}}
+   4. 👉🏼 `make provider_mock_prism`{{exec}} - Run our Mock Provider
+   5. In a second terminal 👉🏼 `make soapui_run`{{exec}} in terminal 2
+      1. Don't forget to change directory into the 👉🏼 `cd openstack`{{exec}} beforehand in the new terminal
+   6. Press 👉🏼 `ctrl + c` to close the mock running in terminal 1
 
 ### Check
 
